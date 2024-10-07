@@ -1,4 +1,6 @@
-# Chrome_Harpoon
+<div align="center">
+# Chrome Harpoon
+</div>
 
 ⇁ Harpoon from ThePrimeagen now for Chrome
 
@@ -14,17 +16,14 @@ Lightening fast tabs switching for Chrome. Inspired by [ThePrimeagen](https://gi
 ### Usage
 
 1. Use **Shift+Alt+H** to mark a tab (adds it to a list).
-2. Switch between marked tabs using the assigned shortcuts: **Shift+Alt+1**, **Shift+Alt+2**, and **Shift+Alt+3**
+2. Jump to the first, second, or third entry in the list using **Shift+Alt+1**, **Shift+Alt+2**, and **Shift+Alt+3** respectively
 
 ---
 
 ### Features
 
 - **Light and Dark modes**
-- Can change the order of tabs or delete them
-- Add tabs to the list with **Shift+Alt+H**
-- Jump to the first, second, or third entry in the list using **Shift+Alt+1**, **Shift+Alt+2**, and **Shift+Alt+3** respectively
-
+- Can change the order of tabs or delete them from the list
 
 ---
 

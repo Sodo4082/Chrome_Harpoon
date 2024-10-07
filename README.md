@@ -6,7 +6,10 @@
 
 ⇁ Harpoon from ThePrimeagen now for Chrome
 
-Lightening fast tabs switching for Chrome. Inspired by [ThePrimeagen](https://github.com/ThePrimeagen/harpoon)
+Lightening fast tab switching for Chrome. Inspired by [ThePrimeagen](https://github.com/ThePrimeagen/harpoon)
+
+![image](https://github.com/user-attachments/assets/1d3b4602-cfd0-48ea-8241-5b3304de5d7e)
+
 
 ### Installation
 
@@ -32,9 +35,10 @@ Lightening fast tabs switching for Chrome. Inspired by [ThePrimeagen](https://gi
 ### Possible Improvements
 
 1. Better persistence of tabs in the list; sometimes earlier tabs are overwritten.
-2. Make a tutorial video.
-3. No dependence of list shape on the first tab added.
-4. Consistent spacing between buttons.
+2. Implement for more than 3 tabs (chrome extensions restrict to only 4 hotkeys)
+3. Make a tutorial video.
+4. No dependence of list shape on the first tab added.
+5. Consistent spacing between buttons.
 
 ---
 

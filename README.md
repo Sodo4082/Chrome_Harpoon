@@ -10,7 +10,7 @@ Lightening fast tab switching for Chrome. Inspired by [ThePrimeagen](https://git
 
 <div align="center">
 
-![image](https://github.com/user-attachments/assets/5c57bd03-290e-4485-8100-9e938ad74e59)
+<img src="(https://github.com/user-attachments/assets/5c57bd03-290e-4485-8100-9e938ad74e59)" width="100" height="100">
 
 </div>
 

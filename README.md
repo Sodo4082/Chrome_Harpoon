@@ -15,6 +15,8 @@ Lightening fast tab switching for Chrome. Inspired by [ThePrimeagen](https://git
 
 https://github.com/user-attachments/assets/ae92cebf-1b6f-47f1-9018-3d23d3e8863f
 
+Agressively pressing **Shift+Alt+1**, **Shift+Alt+2** and **Shift+Alt+3** to change tabs.
+
 </div>
 
 

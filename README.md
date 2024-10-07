@@ -8,8 +8,11 @@
 
 Lightening fast tab switching for Chrome. Inspired by [ThePrimeagen](https://github.com/ThePrimeagen/harpoon)
 
-![image](https://github.com/user-attachments/assets/1d3b4602-cfd0-48ea-8241-5b3304de5d7e)
+<div align="center">
 
+![image](https://github.com/user-attachments/assets/5c57bd03-290e-4485-8100-9e938ad74e59)
+
+</div>
 
 ### Installation
 

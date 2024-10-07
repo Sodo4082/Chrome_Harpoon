@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Harpoon",
+  "version": "1.0",
+  "description": "Mark tabs and switch between them using Vim-style shortcuts.",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "mark-tab": {
+      "suggested_key": {
+        "default": "Shift+Alt+H"
+      },
+      "description": "Mark current tab"
+    },
+    "go-to-tab-1": {
+      "suggested_key": {
+        "default": "Shift+Alt+1"
+      },
+      "description": "Go to first marked tab"
+    },
+    "go-to-tab-2": {
+      "suggested_key": {
+        "default": "Shift+Alt+2"
+      },
+      "description": "Go to second marked tab"
+    },
+    "go-to-tab-3": {
+      "suggested_key": {
+        "default": "Shift+Alt+3"
+      },
+      "description": "Go to third marked tab"
+    }
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {"16": "harpoon.png"}
+  },
+  "icons": {"16": "harpoon.png"}
+}

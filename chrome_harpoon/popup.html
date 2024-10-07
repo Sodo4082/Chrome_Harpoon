@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chrome Harpoon</title>
+  <style>
+    /* Default (dark) theme colors */
+    body {
+      background-color: #1c1c1c; /* Dark background */
+      color: #b8bb26; /* Light text color for contrast */
+      font-family: 'Courier New', monospace; /* Monospace font */
+      margin: 27px;
+      transition: background-color 0.3s, color 0.3s; /* Smooth transition for theme change */
+    }
+
+    h3 {
+      color: #83a598; /* Soft teal for headings */
+      font-size: 18px;
+      border-bottom: 1px solid #282828; /* Dark border for separation */
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      transition: color 0.3s; /* Smooth transition for theme change */
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      transition: background-color 0.3s; /* Smooth transition for theme change */
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #282828; /* Slightly lighter dark background for list items */
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 2px;
+      border: 1px solid #3c3836; /* Subtle border */
+      color: #ebdbb2; /* Light text color */
+      transition: background-color 0.3s; /* Smooth transition for hover effects */
+    }
+
+    button {
+      background-color: #3c3836; /* Button background color matches body */
+      color: #b8bb26; /* Light text color */
+      border: 1px solid #504945; /* Subtle border for buttons */
+      border-radius: 2px;
+      padding: 3px 8px;
+      cursor: pointer;
+      font-size: 12px;
+      font-family: 'Courier New', monospace; /* Consistent font */
+      transition: background-color 0.3s; /* Smooth transition */
+    }
+
+    button:hover {
+      background-color: #504945; /* Darker shade on hover */
+    }
+
+    button:active {
+      background-color: #665c54; /* Even darker color when active */
+    }
+
+    /* Styling for hover effects */
+    li:hover {
+      background-color: #3c3836; /* Darker shade on hover */
+      border-color: #665c54; /* Darker border color on hover */
+    }
+
+    /* Theme switch button */
+    #themeSwitch {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      opacity: 0.8;
+    }
+
+    #themeSwitch img {
+      width: 16px;  /* Small size for icon */
+      height: 16px; /* Small size for icon */
+    }
+
+    #themeSwitch:hover {
+      opacity: 1;
+    }
+
+      /* Light Theme */
+      body.light-theme {
+      background-color: #ffffff; /* White background */
+      color: #333333; /* Dark text color */
+    }
+
+    body.light-theme h3 {
+      color: #5e4b8b; /* Purple accent for headings */
+    }
+
+    body.light-theme li {
+      background-color: #f0f0f0; /* Light gray for list items */
+      border: 1px solid #ccc; /* Light border */
+      color: #333333; /* Dark text color */
+    }
+
+    body.light-theme button {
+      background-color: #eaeaea; /* Light button background */
+      color: #5e4b8b; /* Purple text color */
+      border: 1px solid #5e4b8b; /* Purple border */
+    }
+
+    body.light-theme button:hover {
+      background-color: #dcdcdc; /* Slightly darker gray on hover */
+    }
+  </style>
+</head>
+<body>
+  <button id="themeSwitch">
+    <img id="themeIcon" src="moon.png" alt="Switch Theme" />
+  </button>
+  <h3>Marked Tabs:</h3>
+  <ul id="tabList"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>

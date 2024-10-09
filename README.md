@@ -22,10 +22,10 @@ Agressively pressing **Shift+Alt+1**, **Shift+Alt+2** and **Shift+Alt+3** to cha
 
 ### Installation
 
-1. Download the repository.
+1. Download the repository, and extract the folder.
 2. Open Chrome and go to `chrome://extensions/`.
 3. Enable **Developer mode** (top right).
-4. Click on **Load unpacked** and select the downloaded folder.
+4. Click on **Load unpacked** and select the downloaded folder (Probably there would be a folder inside the forlder which would have the .html and .js files, select that folder).
 
 ### Usage
 

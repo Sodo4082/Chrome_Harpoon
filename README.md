@@ -15,7 +15,7 @@ Lightening fast tab switching for Chrome. Inspired by [ThePrimeagen](https://git
 
 https://github.com/user-attachments/assets/ae92cebf-1b6f-47f1-9018-3d23d3e8863f
 
-Agressively pressing **Shift+Alt+1**, **Shift+Alt+2** and **Shift+Alt+3** to change tabs.
+Agressively pressing **Alt+1**, **Alt+2** and **Alt+3** to change tabs.
 
 </div>
 
@@ -30,7 +30,7 @@ Agressively pressing **Shift+Alt+1**, **Shift+Alt+2** and **Shift+Alt+3** to cha
 ### Usage
 
 1. Use **Shift+Alt+H** to mark a tab (adds it to a list).
-2. Jump to the first, second, or third entry in the list using **Shift+Alt+1**, **Shift+Alt+2**, and **Shift+Alt+3** respectively
+2. Jump to the first, second, or third entry in the list using **Alt+1**, **Alt+2**, and **Alt+3** respectively
 
 ---
 

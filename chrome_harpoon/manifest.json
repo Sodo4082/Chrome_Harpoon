@@ -19,19 +19,19 @@
     },
     "go-to-tab-1": {
       "suggested_key": {
-        "default": "Shift+Alt+1"
+        "default": "Alt+1"
       },
       "description": "Go to first marked tab"
     },
     "go-to-tab-2": {
       "suggested_key": {
-        "default": "Shift+Alt+2"
+        "default": "Alt+2"
       },
       "description": "Go to second marked tab"
     },
     "go-to-tab-3": {
       "suggested_key": {
-        "default": "Shift+Alt+3"
+        "default": "Alt+3"
       },
       "description": "Go to third marked tab"
     }
